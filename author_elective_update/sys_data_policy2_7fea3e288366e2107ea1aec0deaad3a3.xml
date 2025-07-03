@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2">
+    <sys_data_policy2 action="DELETE">
+        <active>true</active>
+        <apply_import_set>true</apply_import_set>
+        <apply_soap>true</apply_soap>
+        <conditions table="x_58872_needit_needit">state=8^EQ<item display_value="Withdrawn" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="8"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <enforce_ui>true</enforce_ui>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table>x_58872_needit_needit</model_table>
+        <reverse_if_false>true</reverse_if_false>
+        <short_description>when state is Withdrawn , make additional comment mandatory... </short_description>
+        <sys_class_name>sys_data_policy2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-02 06:32:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7fea3e288366e2107ea1aec0deaad3a3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>when state is Withdrawn , make additional comment mandatory... </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_data_policy2_7fea3e288366e2107ea1aec0deaad3a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-02 07:10:28</sys_updated_on>
+    </sys_data_policy2>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>8a2c7625fb3b5ed4843df4344eefdc22</instance_id>
+        <instance_name>dev295936</instance_name>
+        <name>sys_data_policy2_7fea3e288366e2107ea1aec0deaad3a3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2"><sys_data_policy2 action="INSERT_OR_UPDATE"><active>true</active><apply_import_set>true</apply_import_set><apply_soap>true</apply_soap><conditions table="x_58872_needit_needit">state=8^EQ<item display_value="Withdrawn" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="8"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></conditions><description/><enforce_ui>true</enforce_ui><inherit>false</inherit><model_id/><model_table>x_58872_needit_needit</model_table><reverse_if_false>true</reverse_if_false><short_description>when state is Withdrawn , make additional comment mandatory... </short_description><sys_class_name>sys_data_policy2</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-02 06:32:11</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7fea3e288366e2107ea1aec0deaad3a3</sys_id><sys_mod_count>3</sys_mod_count><sys_name>when state is Withdrawn , make additional comment mandatory... </sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_data_policy2_7fea3e288366e2107ea1aec0deaad3a3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-02 07:10:28</sys_updated_on></sys_data_policy2></record_update>]]></payload>
+        <payload_hash>441819148</payload_hash>
+        <record_name>when state is Withdrawn , make additional comment mandatory... </record_name>
+        <reverted_from/>
+        <source>a9560bac8366e2107ea1aec0deaad314</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-02 07:10:28</sys_created_on>
+        <sys_id>e156c32883a6e2107ea1aec0deaad3da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197c9f900750000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-02 07:10:28</sys_updated_on>
+        <type>Data Policy</type>
+        <update_guid>6956c328fea6e21090c712a12af68ad9</update_guid>
+        <update_guid_history>6956c328fea6e21090c712a12af68ad9:441819148,b8fe3e288366e21059e71ff9aa2237bd:2046151047,ea0e722caa66e21038c3a71229c49540:441819148,459dfae88666e2103eae472f50d66e09:-1245564211</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-03 04:18:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_policy2">sys_data_policy2</sys_db_object>
+        <sys_id>5e84d758838b42709755dcddf5f7d490</sys_id>
+        <sys_metadata>7fea3e288366e2107ea1aec0deaad3a3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>when state is Withdrawn , make additional comment mandatory... </sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">7031244c836222107ea1aec0deaad328</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_data_policy2_7fea3e288366e2107ea1aec0deaad3a3</sys_update_name>
+        <sys_update_version display_value="sys_data_policy2_7fea3e288366e2107ea1aec0deaad3a3">e156c32883a6e2107ea1aec0deaad3da</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-03 04:18:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
